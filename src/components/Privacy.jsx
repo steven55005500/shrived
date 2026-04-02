@@ -47,7 +47,7 @@ const Privacy = () => {
 
           <div>
             <h2 className="text-lg font-bold text-primary mb-3">8. Your Rights and Choices</h2>
-            <p>You have the right to access, correct, update, or delete your personal information. Contact us at <strong>contact@shrivedh.com</strong> to exercise these rights or for any privacy-related inquiries.</p>
+            <p>You have the right to access, correct, update, or delete your personal information. Contact us at <strong>shruti@shrived.online</strong> to exercise these rights or for any privacy-related inquiries.</p>
           </div>
 
           <div>

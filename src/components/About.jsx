@@ -16,9 +16,9 @@ const About = () => {
           <div className="flex justify-center">
             <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 w-64 text-center shadow-sm hover:shadow-md transition-shadow">
               <div className="w-24 h-24 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center text-white text-3xl font-bold">
-                V
+                S
               </div>
-              <h4 className="font-bold text-lg text-gray-900">Mr Vivek </h4>
+              <h4 className="font-bold text-lg text-gray-900">Miss Shruti </h4>
               <p className="text-sm text-primary font-medium mt-1">CEO & Founder</p>
             </div>
           </div>

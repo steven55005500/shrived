@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -31,15 +31,31 @@ const Contact = () => {
               </span>
             </li>
 
-            <li className="flex items-center">
-              <Phone className="text-primary mr-4 shrink-0" size={20} />
-              <span>+91 9453345344</span>
-            </li>
+           <li className="flex items-center">
+  <Phone className="text-teal-500 mr-3 shrink-0" size={18} />
+  <a href="tel:+919834493055" className="hover:underline">
+    +91 9834493055
+  </a>
+</li>
 
-            <li className="flex items-center">
-              <Mail className="text-primary mr-4 shrink-0" size={20} />
-              <span>contact@shrivedh.com</span>
-            </li>
+<li className="flex items-center">
+  <Mail className="text-teal-500 mr-3 shrink-0" size={18} />
+  <a href="mailto:shruti@shrived.online" className="hover:underline">
+    shruti@shrived.online
+  </a>
+</li>
+
+<li className="flex items-center">
+  <MessageCircle className="text-teal-500 mr-3 shrink-0" size={18} />
+  <a 
+    href="https://wa.me/919834493055" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="hover:underline"
+  >
+    Chat on WhatsApp
+  </a>
+</li>
 
             <li className="flex items-center">
               <Clock className="text-primary mr-4 shrink-0" size={20} />
