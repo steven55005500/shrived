@@ -83,16 +83,16 @@ const Contact = () => {
               </select>
             </div>
 
-            <textarea
-              placeholder="Tell us about your project"
-              rows="5"
-              className="input resize-none"
-            ></textarea>
+         <textarea
+  placeholder="Tell us about your project"
+  rows="5"
+  className="input w-full resize-none"
+></textarea>
 
             <div className="flex items-start gap-3">
               <input type="checkbox" id="consent" className="mt-1" />
               <label htmlFor="consent" className="text-xs text-gray-500">
-                I agree to Terms & Privacy Policy.
+I Authorize SHRIVEDH  to Send Notification Via SMS/RCS/Whatsapp/Email
               </label>
             </div>
 
