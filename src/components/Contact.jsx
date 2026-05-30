@@ -24,9 +24,9 @@ const Contact = () => {
             <li className="flex items-start">
               <MapPin className="text-primary mr-4 shrink-0 mt-1" size={20} />
               <span className="leading-relaxed">
-                Office No. 205, Tech Park Plaza,<br/>
-                S.V. Road, Malad West,<br/>
-                Mumbai, Maharashtra 400064,<br/>
+                Near Bus Stand,<br/>
+                Tunki BK ,<br/>
+                Buldhana, Maharashtra 444204,<br/>
                 India
               </span>
             </li>
