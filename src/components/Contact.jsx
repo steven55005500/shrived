@@ -24,10 +24,7 @@ const Contact = () => {
             <li className="flex items-start">
               <MapPin className="text-primary mr-4 shrink-0 mt-1" size={20} />
               <span className="leading-relaxed">
-                Near Bus Stand,<br/>
-                Tunki BK ,<br/>
-                Buldhana, Maharashtra 444204,<br/>
-                India
+                01, NEAR BUS STAND, TUNKI BK, TUNKI BK, BULDHANA, MAHARASHTRA, BULDHANA, Pin 444204
               </span>
             </li>
 
