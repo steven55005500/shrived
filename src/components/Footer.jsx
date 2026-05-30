@@ -47,12 +47,7 @@ const Footer = () => {
           <ul className="space-y-4 text-sm text-gray-400">
             <li className="flex items-start">
               <MapPin className="text-teal-500 mr-3 shrink-0 mt-1" size={18} />
-              <span className="leading-relaxed">
-                Office No. 205, Tech Park Plaza,<br/>
-                S.V. Road, Malad West,<br/>
-                Mumbai, Maharashtra 400064,<br/>
-                India
-              </span>
+              
             </li>
 <li className="flex items-center">
   <Phone className="text-teal-500 mr-3 shrink-0" size={18} />
