@@ -41,7 +41,45 @@ const Footer = () => {
         </div>
 
         {/* Contact Info */}
-      
+        <div>
+          <h4 className="text-lg font-bold text-white mb-4">Contact Info</h4>
+          <div className="w-8 h-1 bg-teal-500 mb-4"></div>
+          <ul className="space-y-4 text-sm text-gray-400">
+            
+<li className="flex items-center">
+  <Phone className="text-teal-500 mr-3 shrink-0" size={18} />
+  <a href="tel:+919834493055" className="hover:underline">
+    +91 9834493055
+  </a>
+</li>
+
+<li className="flex items-center">
+  <Mail className="text-teal-500 mr-3 shrink-0" size={18} />
+  <a href="mailto:shruti@shrived.online" className="hover:underline">
+    shruti@shrived.online
+  </a>
+</li>
+
+<li className="flex items-center">
+  <MessageCircle className="text-teal-500 mr-3 shrink-0" size={18} />
+  <a 
+    href="https://wa.me/919834493055" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="hover:underline"
+  >
+    Chat on WhatsApp
+  </a>
+</li>
+
+            <li className="flex items-center">
+              <Clock className="text-teal-500 mr-3 shrink-0" size={18} />
+              <span>Mon-Sat: 9AM - 6PM IST</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
       
       {/* Copyright Bottom Bar */}
       <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-gray-700/50 text-sm text-center flex flex-col sm:flex-row justify-between items-center gap-4 text-gray-500">
